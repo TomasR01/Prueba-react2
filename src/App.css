@@ -1,0 +1,111 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #9dc2d8;
+}
+
+.banner {
+  background-image: url(src/assets/img/pizza.png);
+  background-size: cover;
+  background-position: 0%;
+  height: 25vh;
+  width: 100%;
+  align-content: center;
+}
+
+#page-title {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1.5px darkred;
+}
+
+#page-subtitle {
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1.5px darkgreen;
+}
+
+.pizza-card {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.card-title-bg {
+  background-color: rgb(210, 7, 7);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-ingredients-bg {
+  background-color: white;
+}
+
+.ingredients-text {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.ingredients-desc {
+  font-size: 18px;
+}
+.card-bg {
+  background-color: darkgreen;
+  border-width: 3px;
+}
+.price {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.see-button {
+  background-color: darkred;
+  border-color: azure;
+  width: 15rem;
+  font-size: 18px;
+}
+
+.add-button {
+  background-color: rgb(0, 0, 0);
+  width: 15rem;
+  border-color: azure;
+  font-size: 18px;
+}
+
+.pizza-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.detail-card {
+  width: 600px;
+}
+
+.cart-title {
+  -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+  color: white;
+  font-size: 40px;
+}
+
+.cart-card {
+  border-width: 2px;
+  border-color: darkgreen;
+}
+
+.cart-total {
+  color: white;
+  font-size: 35px;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
